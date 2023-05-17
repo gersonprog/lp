@@ -1,0 +1,15 @@
+C:\Users\gerson.sasebastiao\source\repos\lp\bin\Debug\net7.0\lp.exe
+C:\Users\gerson.sasebastiao\source\repos\lp\bin\Debug\net7.0\lp.deps.json
+C:\Users\gerson.sasebastiao\source\repos\lp\bin\Debug\net7.0\lp.runtimeconfig.json
+C:\Users\gerson.sasebastiao\source\repos\lp\bin\Debug\net7.0\lp.dll
+C:\Users\gerson.sasebastiao\source\repos\lp\bin\Debug\net7.0\lp.pdb
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.csproj.AssemblyReference.cache
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.AssemblyInfoInputs.cache
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.AssemblyInfo.cs
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.csproj.CoreCompileInputs.cache
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.dll
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\refint\lp.dll
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.pdb
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\lp.genruntimeconfig.cache
+C:\Users\gerson.sasebastiao\source\repos\lp\obj\Debug\net7.0\ref\lp.dll
