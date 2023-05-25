@@ -1,5 +1,4 @@
-﻿/*
-//exercicio1
+﻿//exercicio1
 
 Console.WriteLine("Meu 1º programa console ");
 
@@ -918,8 +917,3 @@ switch (opcao)
 
 
 //exercicio26
-
-
-
-
-*/
