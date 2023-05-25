@@ -8,7 +8,7 @@ int idade = 42;
 System.Console.WriteLine("Me chamo "+nome+" e tenho "+idade+" anos de idade");
 
 Console.ReadKey();
-
+/*
 
 //exercicio2
 Console.WriteLine("Soma simples");
@@ -917,3 +917,5 @@ switch (opcao)
 
 
 //exercicio26
+
+*/
