@@ -1,82 +1,40 @@
-﻿
-System.Console.WriteLine("Matriz - Cardádio Estruturado");
-//constante
-const int row = 3;
-const int col = 5;
+﻿System.Console.WriteLine("Emprestimo");
+System.Console.Write("Informe o valor do empréstimo a partir de R$ 1000,00: ");
+double valorSolicitado = double.Parse(Console.ReadLine());
 
-string[,] cardapio = new string[row, col]
-{
-{"segunda","terça","quarta","quinta","sexta"},
-{"virado","strogonf","feijoada","lazanha","bacalhau"},
-{"R$21,00","R$22,00","R$23,00","R$24,00","R$25,00"}
-};
+double avista = valorSolicitado * 0.05;
+double parcala3 = valorSolicitado / 3;
+double parcala3 = valorSolicitado * 1.18 / 12;
+double parcala3 = valorSolicitado * 1.32 / 24;
 
-double[,] preco = new string[row, col]
+System.Console.Write("Informe em quantas vezes deseja parcelar: ");
+
+//A vista
+//Parcelado 3x S/J
+//Parcelado 12x C/J
+//Parcelado 24x C/J
+
+switch (parcelas)
 {
-    {21,22,23,24,25}
+    case "A vista":
+    System.Console.WriteLine($"O emprestimo solicitado é de {valorEmprestimo} e o pagamento será {avista} a vista.");
+
+    case "3X":
+    System.Console.WriteLine($"O emprestimo solicitado é de {valorEmprestimo} e o pagamento será {parcala3} em 3 parcelas.");
+
+    case "12X":
+    System.Console.WriteLine($"O emprestimo solicitado é de {valorEmprestimo} e o pagamento será {parcela12} em 12 parcelas.");
+
+    case "24X":
+    System.Console.WriteLine($"O emprestimo solicitado é de {valorEmprestimo} e o pagamento será {parcela24} em 24 parcelas.");
+
+    default:
+    System.Console.WriteLine("Escola pagar a vista, ou em parcelas de 3 , 12 ou 24 vezes");
 }
 
-for (int i = 0; i < row; i++)
+valorEmprestimo(double avista, double parcela3, double parcela12, double parcela24, string pagto)
 {
-    for (int j = 0; j < col; j++)
-    {
-        Console.Write($"{preco[i,j]}\t");
-    }
-    Console.WriteLine();
+    return valorSolicitado;
+
 }
-
-
-
-// System.Console.WriteLine("Matriz - Cardádio Estruturado");
-// //constante
-// const int row = 3;
-// const int col = 5;
-
-// string[,] cardapio = new string[row, col]
-// {
-// {"segunda","terça","quarta","quinta","sexta"},
-// {"virado(0)","strogonf(1)","feijoada(2)","lazanha(3)","bacalhau(4)"},
-// {21,22,23,24,25}
-// };
-
-// string[,] suco = new string[row, col]
-// {
-// {"laranja(0)","maracuja(1)","uva(2)","acerola(3)","manga(4)"},
-// {7,8,9,10,11}
-// };
-
-
-// for (int i = 0; i < row; i++)
-// {
-//     for (int j = 0; j < col; j++)
-//     {
-//         Console.Write($"{cardapio[i,j]}\t");
-//     }
-//     Console.WriteLine();
-// }
-
-// System.Console.WriteLine("Escolha um item do cardápio:");
-
-// string opcao = Console.ReadLine();
-
-// switch(opcao)
-// {
-//     case"1":
-//     System.Console.WriteLine($"O prato escolhido foi {cardapio[1,0]} e vai custar {cardapio[2,0]}");
-//     break
-//     case"2":
-//     System.Console.WriteLine($"O prato escolhido foi {cardapio[1,2]} e vai custar {cardapio[2,2]}");
-//     break
-//     case"3":
-//     System.Console.WriteLine($"O prato escolhido foi {cardapio[1,3]} e vai custar {cardapio[2,3]}");
-//     break
-//     case"4":
-//     System.Console.WriteLine($"O prato escolhido foi {cardapio[1,4]} e vai custar {cardapio[2,4]}");
-//     break
-            
-// }
-// Console.ReadKey();
-
-// string[] pt = {"virado","strogonf","feijoada","lazanha","bacalhau"};
-
-// switch (opcao)
+Console.ReadKey();
